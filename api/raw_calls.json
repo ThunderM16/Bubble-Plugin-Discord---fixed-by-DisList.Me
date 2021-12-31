@@ -11,7 +11,7 @@
             "publish_as": "data",
             "rank": 0,
             "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAC",
-            "should_reinitialize": true,
+            "should_reinitialize": false,
             "types": "{\"plugin_api.AAC\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"676195747904880690\",\"path\":[\"id\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"🙏Hope\",\"path\":[\"username\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"a_e9ed6ffb5bb02e8e09fea756860932dc\",\"path\":[\"avatar\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"sample_value\":\"0001\",\"path\":[\"discriminator\"]},\"_p_public_flags\":{\"ret_value\":\"number\",\"caption\":\"public_flags\",\"sample_value\":64,\"path\":[\"public_flags\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"sample_value\":64,\"path\":[\"flags\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"483828f75f6d79c04e3a47dc85027ee9\",\"path\":[\"banner\"]},\"_p_banner_color\":{\"ret_value\":\"text\",\"caption\":\"banner_color\",\"sample_value\":null,\"path\":[\"banner_color\"]},\"_p_accent_color\":{\"ret_value\":\"text\",\"caption\":\"accent_color\",\"sample_value\":null,\"path\":[\"accent_color\"]},\"_p_locale\":{\"ret_value\":\"text\",\"caption\":\"locale\",\"sample_value\":\"en-US\",\"path\":[\"locale\"]},\"_p_mfa_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"mfa_enabled\",\"sample_value\":true,\"path\":[\"mfa_enabled\"]},\"_p_premium_type\":{\"ret_value\":\"number\",\"caption\":\"premium_type\",\"sample_value\":2,\"path\":[\"premium_type\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"mail@dislist.me\",\"path\":[\"email\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"sample_value\":true,\"path\":[\"verified\"]}}}}",
             "url": "https://discordapp.com/api/users/@me"
         },
@@ -21,7 +21,7 @@
                 "AAP": {
                     "key": "content",
                     "private": true,
-                    "value": ""
+                    "value": "test"
                 },
                 "AAQ": {
                     "key": "username",
@@ -50,34 +50,38 @@
                     "visibility": "hidden"
                 }
             },
-            "initialized": false,
+            "initialized": true,
             "method": "post",
             "name": "Send Message to discord webhook",
             "publish_as": "action",
             "rank": 1,
+            "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAM",
             "should_reinitialize": true,
+            "types": "{\"plugin_api.AAM\":{\"caption\":\"Send Message to discord webhook\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"test webhook\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":1,\"path\":[\"type\"]},\"_p_channel_id\":{\"ret_value\":\"text\",\"caption\":\"channel_id\",\"sample_value\":\"925801389886701608\",\"path\":[\"channel_id\"]},\"_p_token\":{\"ret_value\":\"text\",\"caption\":\"token\",\"sample_value\":\"ZjHnxlJTdeKdTWPYNeQgKgco92_5BXvhzf9dTzwQTcy8QPD9IMapLS4cB_G00QG0vDZ91\",\"path\":[\"token\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"\",\"path\":[\"avatar\"]},\"_p_guild_id\":{\"ret_value\":\"text\",\"caption\":\"guild_id\",\"sample_value\":\"905294585473945660\",\"path\":[\"guild_id\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"891335306681384962\",\"path\":[\"id\"]},\"_p_application_id\":{\"ret_value\":\"text\",\"caption\":\"application_id\",\"sample_value\":\"\",\"path\":[\"application_id\"]},\"_p_user__dot__username\":{\"ret_value\":\"text\",\"caption\":\"user.username\",\"sample_value\":\"test\",\"path\":[\"user.username\"]},\"_p_user__dot__discriminator\":{\"ret_value\":\"text\",\"caption\":\"user.discriminator\",\"sample_value\":\"7479\",\"path\":[\"user.discriminator\"]},\"_p_user__dot__id\":{\"ret_value\":\"text\",\"caption\":\"user.id\",\"sample_value\":\"190320984123768832\",\"path\":[\"user.id\"]},\"_p_user__dot__avatar\":{\"ret_value\":\"text\",\"caption\":\"user.avatar\",\"sample_value\":\"b004ec1740a63ca06ae2e14c5cee11f3\",\"path\":[\"user.avatar\"]},\"_p_user__dot__public_flags\":{\"ret_value\":\"number\",\"caption\":\"user.public_flags\",\"sample_value\":131328,\"path\":[\"user.public_flags\"]}}}}",
             "url": "https://discordapp.com/api/webhooks/[webhook.id]/[webhook.token]",
             "url_params": {
                 "AAN": {
                     "key": "webhook.id",
                     "private": true,
-                    "value": ""
+                    "value": "891335306681384962"
                 },
                 "AAO": {
                     "key": "webhook.token",
                     "private": true,
-                    "value": ""
+                    "value": "ZjHnxlJTdeKdTWPYNeQgKgco92_5BXvhzf9dTzwQTcy8QPD9IMapLS4cB_G00QG0vDZ9"
                 }
             }
         },
         "AAU": {
             "doc_link": "https://discordapp.com/developers/docs/resources/guild#get-guild-channels",
-            "initialized": false,
+            "initialized": true,
             "method": "get",
             "name": "Get Guild Channels",
             "publish_as": "data",
             "rank": 2,
+            "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAU",
             "should_reinitialize": true,
+            "types": "{\"plugin_api.AAU\":{\"caption\":\"Get Guild Channel\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"2909267986263572999\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Mason's Test Server\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"389030ec9db118cb5b85a732333b7c98\",\"path\":[\"icon\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":null,\"path\":[\"description\"]},\"_p_splash\":{\"ret_value\":\"text\",\"caption\":\"splash\",\"sample_value\":\"75610b05a0dd09ec2c3c7df9f6975ea0\",\"path\":[\"splash\"]},\"_p_discovery_splash\":{\"ret_value\":\"text\",\"caption\":\"discovery_splash\",\"sample_value\":null,\"path\":[\"discovery_splash\"]},\"_p_approximate_member_count\":{\"ret_value\":\"number\",\"caption\":\"approximate_member_count\",\"sample_value\":2,\"path\":[\"approximate_member_count\"]},\"_p_approximate_presence_count\":{\"ret_value\":\"number\",\"caption\":\"approximate_presence_count\",\"sample_value\":2,\"path\":[\"approximate_presence_count\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"INVITE_SPLASH\",\"path\":[\"features\"]},\"_p_emojis\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.AAU.emojis\",\"caption\":\"emojis\",\"path\":[\"emojis\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"5c3cb8d1bc159937fffe7e641ec96ca7\",\"path\":[\"banner\"]},\"_p_owner_id\":{\"ret_value\":\"text\",\"caption\":\"owner_id\",\"sample_value\":\"53908232506183680\",\"path\":[\"owner_id\"]},\"_p_application_id\":{\"ret_value\":\"text\",\"caption\":\"application_id\",\"sample_value\":null,\"path\":[\"application_id\"]},\"_p_region\":{\"ret_value\":\"text\",\"caption\":\"region\",\"sample_value\":null,\"path\":[\"region\"]},\"_p_afk_channel_id\":{\"ret_value\":\"text\",\"caption\":\"afk_channel_id\",\"sample_value\":null,\"path\":[\"afk_channel_id\"]},\"_p_afk_timeout\":{\"ret_value\":\"number\",\"caption\":\"afk_timeout\",\"sample_value\":300,\"path\":[\"afk_timeout\"]},\"_p_system_channel_id\":{\"ret_value\":\"text\",\"caption\":\"system_channel_id\",\"sample_value\":null,\"path\":[\"system_channel_id\"]},\"_p_widget_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"widget_enabled\",\"sample_value\":true,\"path\":[\"widget_enabled\"]},\"_p_widget_channel_id\":{\"ret_value\":\"text\",\"caption\":\"widget_channel_id\",\"sample_value\":\"639513352485470208\",\"path\":[\"widget_channel_id\"]},\"_p_verification_level\":{\"ret_value\":\"number\",\"caption\":\"verification_level\",\"sample_value\":0,\"path\":[\"verification_level\"]},\"_p_roles\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.AAU.roles\",\"caption\":\"roles\",\"path\":[\"roles\"]},\"_p_default_message_notifications\":{\"ret_value\":\"number\",\"caption\":\"default_message_notifications\",\"sample_value\":1,\"path\":[\"default_message_notifications\"]},\"_p_mfa_level\":{\"ret_value\":\"number\",\"caption\":\"mfa_level\",\"sample_value\":0,\"path\":[\"mfa_level\"]},\"_p_explicit_content_filter\":{\"ret_value\":\"number\",\"caption\":\"explicit_content_filter\",\"sample_value\":0,\"path\":[\"explicit_content_filter\"]},\"_p_max_presences\":{\"ret_value\":\"text\",\"caption\":\"max_presences\",\"sample_value\":null,\"path\":[\"max_presences\"]},\"_p_max_members\":{\"ret_value\":\"number\",\"caption\":\"max_members\",\"sample_value\":250000,\"path\":[\"max_members\"]},\"_p_max_video_channel_users\":{\"ret_value\":\"number\",\"caption\":\"max_video_channel_users\",\"sample_value\":25,\"path\":[\"max_video_channel_users\"]},\"_p_vanity_url_code\":{\"ret_value\":\"text\",\"caption\":\"vanity_url_code\",\"sample_value\":\"no\",\"path\":[\"vanity_url_code\"]},\"_p_premium_tier\":{\"ret_value\":\"number\",\"caption\":\"premium_tier\",\"sample_value\":0,\"path\":[\"premium_tier\"]},\"_p_premium_subscription_count\":{\"ret_value\":\"number\",\"caption\":\"premium_subscription_count\",\"sample_value\":0,\"path\":[\"premium_subscription_count\"]},\"_p_system_channel_flags\":{\"ret_value\":\"number\",\"caption\":\"system_channel_flags\",\"sample_value\":0,\"path\":[\"system_channel_flags\"]},\"_p_preferred_locale\":{\"ret_value\":\"text\",\"caption\":\"preferred_locale\",\"sample_value\":\"en-US\",\"path\":[\"preferred_locale\"]},\"_p_rules_channel_id\":{\"ret_value\":\"text\",\"caption\":\"rules_channel_id\",\"sample_value\":null,\"path\":[\"rules_channel_id\"]},\"_p_public_updates_channel_id\":{\"ret_value\":\"text\",\"caption\":\"public_updates_channel_id\",\"sample_value\":null,\"path\":[\"public_updates_channel_id\"]}}},\"plugin_api.AAU.emojis\":{\"caption\":\"Get Guild Channels emoji\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"ultrafastparrot\",\"path\":[\"name\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"393564762228785161\",\"path\":[\"id\"]},\"_p_require_colons\":{\"ret_value\":\"boolean\",\"caption\":\"require_colons\",\"sample_value\":true,\"path\":[\"require_colons\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":false,\"path\":[\"managed\"]},\"_p_animated\":{\"ret_value\":\"boolean\",\"caption\":\"animated\",\"sample_value\":true,\"path\":[\"animated\"]},\"_p_available\":{\"ret_value\":\"boolean\",\"caption\":\"available\",\"sample_value\":true,\"path\":[\"available\"]}}},\"plugin_api.AAU.roles\":{\"caption\":\"Get Guild Channels role\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"2909267986263572999\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"@everyone\",\"path\":[\"name\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"49794752\",\"path\":[\"permissions\"]},\"_p_position\":{\"ret_value\":\"number\",\"caption\":\"position\",\"sample_value\":0,\"path\":[\"position\"]},\"_p_color\":{\"ret_value\":\"number\",\"caption\":\"color\",\"sample_value\":0,\"path\":[\"color\"]},\"_p_hoist\":{\"ret_value\":\"boolean\",\"caption\":\"hoist\",\"sample_value\":false,\"path\":[\"hoist\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":false,\"path\":[\"managed\"]},\"_p_mentionable\":{\"ret_value\":\"boolean\",\"caption\":\"mentionable\",\"sample_value\":false,\"path\":[\"mentionable\"]}}}}",
             "url": "https://discordapp.com/api/guilds/[guild.id]/channels",
             "url_params": {
                 "AAV": {
@@ -89,11 +93,14 @@
         },
         "AAW": {
             "doc_link": "https://discordapp.com/developers/docs/resources/user#get-current-user-guilds",
+            "initialized": true,
             "method": "get",
             "name": "Get My Guilds",
             "publish_as": "data",
             "rank": 3,
+            "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAW",
             "should_reinitialize": true,
+            "types": "{\"plugin_api.AAW\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"80351110224678912\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"1337 Krew\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"8342729096ea3675442027381ff50dfe\",\"path\":[\"icon\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":true,\"path\":[\"owner\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"36953089\",\"path\":[\"permissions\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"COMMUNITY\",\"path\":[\"features\"]}}}}",
             "url": "https://discordapp.com/api/users/@me/guilds"
         },
         "AAX": {
@@ -128,12 +135,14 @@
                     "visibility": "hidden"
                 }
             },
-            "initialized": false,
+            "initialized": true,
             "method": "post",
             "name": "Create message in Channel",
             "publish_as": "data",
             "rank": 4,
-            "should_reinitialize": true,
+            "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAX",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAX\":{\"caption\":\"Create message in Channel\",\"fields\":{\"_p_content\":{\"ret_value\":\"text\",\"caption\":\"content\",\"sample_value\":\"Hello, World!\",\"path\":[\"content\"]},\"_p_tts\":{\"ret_value\":\"boolean\",\"caption\":\"tts\",\"sample_value\":false,\"path\":[\"tts\"]},\"_p_embeds\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.AAX.embeds\",\"caption\":\"embeds\",\"path\":[\"embeds\"]}}},\"plugin_api.AAX.embeds\":{\"caption\":\"Create message in Channel embed\",\"fields\":{\"_p_title\":{\"ret_value\":\"text\",\"caption\":\"title\",\"sample_value\":\"Hello, Embed!\",\"path\":[\"title\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"This is an embedded message.\",\"path\":[\"description\"]}}}}",
             "url": "https://discordapp.com/api/channels/[channel.id]/messages",
             "url_params": {
                 "AAY": {
@@ -162,12 +171,14 @@
             }
         },
         "AAf": {
-            "initialized": false,
+            "initialized": true,
             "method": "get",
             "name": "Get Guild Roles",
             "publish_as": "data",
             "rank": 6,
-            "should_reinitialize": true,
+            "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAf",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAf\":{\"caption\":\"Get Guild Role\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"2909267986263572999\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Mason's Test Server\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"389030ec9db118cb5b85a732333b7c98\",\"path\":[\"icon\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":null,\"path\":[\"description\"]},\"_p_splash\":{\"ret_value\":\"text\",\"caption\":\"splash\",\"sample_value\":\"75610b05a0dd09ec2c3c7df9f6975ea0\",\"path\":[\"splash\"]},\"_p_discovery_splash\":{\"ret_value\":\"text\",\"caption\":\"discovery_splash\",\"sample_value\":null,\"path\":[\"discovery_splash\"]},\"_p_approximate_member_count\":{\"ret_value\":\"number\",\"caption\":\"approximate_member_count\",\"sample_value\":2,\"path\":[\"approximate_member_count\"]},\"_p_approximate_presence_count\":{\"ret_value\":\"number\",\"caption\":\"approximate_presence_count\",\"sample_value\":2,\"path\":[\"approximate_presence_count\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"INVITE_SPLASH\",\"path\":[\"features\"]},\"_p_emojis\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.AAf.emojis\",\"caption\":\"emojis\",\"path\":[\"emojis\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"5c3cb8d1bc159937fffe7e641ec96ca7\",\"path\":[\"banner\"]},\"_p_owner_id\":{\"ret_value\":\"text\",\"caption\":\"owner_id\",\"sample_value\":\"53908232506183680\",\"path\":[\"owner_id\"]},\"_p_application_id\":{\"ret_value\":\"text\",\"caption\":\"application_id\",\"sample_value\":null,\"path\":[\"application_id\"]},\"_p_region\":{\"ret_value\":\"text\",\"caption\":\"region\",\"sample_value\":null,\"path\":[\"region\"]},\"_p_afk_channel_id\":{\"ret_value\":\"text\",\"caption\":\"afk_channel_id\",\"sample_value\":null,\"path\":[\"afk_channel_id\"]},\"_p_afk_timeout\":{\"ret_value\":\"number\",\"caption\":\"afk_timeout\",\"sample_value\":300,\"path\":[\"afk_timeout\"]},\"_p_system_channel_id\":{\"ret_value\":\"text\",\"caption\":\"system_channel_id\",\"sample_value\":null,\"path\":[\"system_channel_id\"]},\"_p_widget_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"widget_enabled\",\"sample_value\":true,\"path\":[\"widget_enabled\"]},\"_p_widget_channel_id\":{\"ret_value\":\"text\",\"caption\":\"widget_channel_id\",\"sample_value\":\"639513352485470208\",\"path\":[\"widget_channel_id\"]},\"_p_verification_level\":{\"ret_value\":\"number\",\"caption\":\"verification_level\",\"sample_value\":0,\"path\":[\"verification_level\"]},\"_p_roles\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.AAf.roles\",\"caption\":\"roles\",\"path\":[\"roles\"]},\"_p_default_message_notifications\":{\"ret_value\":\"number\",\"caption\":\"default_message_notifications\",\"sample_value\":1,\"path\":[\"default_message_notifications\"]},\"_p_mfa_level\":{\"ret_value\":\"number\",\"caption\":\"mfa_level\",\"sample_value\":0,\"path\":[\"mfa_level\"]},\"_p_explicit_content_filter\":{\"ret_value\":\"number\",\"caption\":\"explicit_content_filter\",\"sample_value\":0,\"path\":[\"explicit_content_filter\"]},\"_p_max_presences\":{\"ret_value\":\"text\",\"caption\":\"max_presences\",\"sample_value\":null,\"path\":[\"max_presences\"]},\"_p_max_members\":{\"ret_value\":\"number\",\"caption\":\"max_members\",\"sample_value\":250000,\"path\":[\"max_members\"]},\"_p_max_video_channel_users\":{\"ret_value\":\"number\",\"caption\":\"max_video_channel_users\",\"sample_value\":25,\"path\":[\"max_video_channel_users\"]},\"_p_vanity_url_code\":{\"ret_value\":\"text\",\"caption\":\"vanity_url_code\",\"sample_value\":\"no\",\"path\":[\"vanity_url_code\"]},\"_p_premium_tier\":{\"ret_value\":\"number\",\"caption\":\"premium_tier\",\"sample_value\":0,\"path\":[\"premium_tier\"]},\"_p_premium_subscription_count\":{\"ret_value\":\"number\",\"caption\":\"premium_subscription_count\",\"sample_value\":0,\"path\":[\"premium_subscription_count\"]},\"_p_system_channel_flags\":{\"ret_value\":\"number\",\"caption\":\"system_channel_flags\",\"sample_value\":0,\"path\":[\"system_channel_flags\"]},\"_p_preferred_locale\":{\"ret_value\":\"text\",\"caption\":\"preferred_locale\",\"sample_value\":\"en-US\",\"path\":[\"preferred_locale\"]},\"_p_rules_channel_id\":{\"ret_value\":\"text\",\"caption\":\"rules_channel_id\",\"sample_value\":null,\"path\":[\"rules_channel_id\"]},\"_p_public_updates_channel_id\":{\"ret_value\":\"text\",\"caption\":\"public_updates_channel_id\",\"sample_value\":null,\"path\":[\"public_updates_channel_id\"]}}},\"plugin_api.AAf.emojis\":{\"caption\":\"Get Guild Roles emoji\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"ultrafastparrot\",\"path\":[\"name\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"393564762228785161\",\"path\":[\"id\"]},\"_p_require_colons\":{\"ret_value\":\"boolean\",\"caption\":\"require_colons\",\"sample_value\":true,\"path\":[\"require_colons\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":false,\"path\":[\"managed\"]},\"_p_animated\":{\"ret_value\":\"boolean\",\"caption\":\"animated\",\"sample_value\":true,\"path\":[\"animated\"]},\"_p_available\":{\"ret_value\":\"boolean\",\"caption\":\"available\",\"sample_value\":true,\"path\":[\"available\"]}}},\"plugin_api.AAf.roles\":{\"caption\":\"Get Guild Roles role\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"2909267986263572999\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"@everyone\",\"path\":[\"name\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"49794752\",\"path\":[\"permissions\"]},\"_p_position\":{\"ret_value\":\"number\",\"caption\":\"position\",\"sample_value\":0,\"path\":[\"position\"]},\"_p_color\":{\"ret_value\":\"number\",\"caption\":\"color\",\"sample_value\":0,\"path\":[\"color\"]},\"_p_hoist\":{\"ret_value\":\"boolean\",\"caption\":\"hoist\",\"sample_value\":false,\"path\":[\"hoist\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":false,\"path\":[\"managed\"]},\"_p_mentionable\":{\"ret_value\":\"boolean\",\"caption\":\"mentionable\",\"sample_value\":false,\"path\":[\"mentionable\"]}}}}",
             "url": "https://discordapp.com/api/v6/guilds/[guild.id]/roles",
             "url_params": {
                 "AAg": {
@@ -178,67 +189,8 @@
                 }
             }
         },
-        "AAp": {
-            "body_type": "form_data",
-            "data_type": "empty",
-            "initialized": false,
-            "method": "put",
-            "name": "Add Role",
-            "publish_as": "data",
-            "rank": 7,
-            "should_reinitialize": true,
-            "url": "https://discord.com/api/v9/guilds/[guildid]/members/[userid]/roles/[roleid]",
-            "url_params": {
-                "AAq": {
-                    "key": "guildid",
-                    "private": true,
-                    "value": "905294585473945660"
-                },
-                "AAr": {
-                    "key": "userid",
-                    "private": true,
-                    "value": "676195747904880690"
-                },
-                "AAs": {
-                    "key": "roleid",
-                    "private": true,
-                    "value": "905294585507496009"
-                }
-            }
-        },
-        "AAt": {
-            "body_type": "form_data",
-            "data_type": "empty",
-            "initialized": false,
-            "method": "delete_method",
-            "name": "Remove Role",
-            "publish_as": "action",
-            "rank": 8,
-            "should_reinitialize": true,
-            "url": "https://discord.com/api/v9/guilds/[guildid]/members/[userid]/roles/[roleid]",
-            "url_params": {
-                "AAu": {
-                    "key": "guildid",
-                    "private": true,
-                    "value": ""
-                },
-                "AAv": {
-                    "key": "userid",
-                    "private": true,
-                    "value": ""
-                },
-                "AAw": {
-                    "key": "roleid",
-                    "private": true,
-                    "value": ""
-                }
-            }
-        },
-        "AAx": {
-            "method": "get",
-            "name": "API Call",
-            "publish_as": "data",
-            "rank": 9
+        "token_call": {
+            "method": "post"
         }
     },
     "generate_token_from_code_uri": "https://discordapp.com/api/oauth2/token",
