@@ -177,6 +177,68 @@
                     "value": "905294585473945660"
                 }
             }
+        },
+        "AAp": {
+            "body_type": "form_data",
+            "data_type": "empty",
+            "initialized": false,
+            "method": "put",
+            "name": "Add Role",
+            "publish_as": "data",
+            "rank": 7,
+            "should_reinitialize": true,
+            "url": "https://discord.com/api/v9/guilds/[guildid]/members/[userid]/roles/[roleid]",
+            "url_params": {
+                "AAq": {
+                    "key": "guildid",
+                    "private": true,
+                    "value": "905294585473945660"
+                },
+                "AAr": {
+                    "key": "userid",
+                    "private": true,
+                    "value": "676195747904880690"
+                },
+                "AAs": {
+                    "key": "roleid",
+                    "private": true,
+                    "value": "905294585507496009"
+                }
+            }
+        },
+        "AAt": {
+            "body_type": "form_data",
+            "data_type": "empty",
+            "initialized": false,
+            "method": "delete_method",
+            "name": "Remove Role",
+            "publish_as": "action",
+            "rank": 8,
+            "should_reinitialize": true,
+            "url": "https://discord.com/api/v9/guilds/[guildid]/members/[userid]/roles/[roleid]",
+            "url_params": {
+                "AAu": {
+                    "key": "guildid",
+                    "private": true,
+                    "value": ""
+                },
+                "AAv": {
+                    "key": "userid",
+                    "private": true,
+                    "value": ""
+                },
+                "AAw": {
+                    "key": "roleid",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAx": {
+            "method": "get",
+            "name": "API Call",
+            "publish_as": "data",
+            "rank": 9
         }
     },
     "generate_token_from_code_uri": "https://discordapp.com/api/oauth2/token",
