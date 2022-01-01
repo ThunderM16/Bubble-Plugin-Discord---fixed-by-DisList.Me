@@ -42,6 +42,7 @@
                 }
             },
             "doc_link": "https://discordapp.com/developers/docs/resources/webhook",
+            "get_headers": true,
             "headers": {
                 "AAT": {
                     "key": "Content-Type",
@@ -72,6 +73,7 @@
         },
         "AAU": {
             "doc_link": "https://discordapp.com/developers/docs/resources/guild#get-guild-channels",
+            "get_headers": true,
             "initialized": false,
             "method": "get",
             "name": "Get Guild Channels",
@@ -83,43 +85,45 @@
                 "AAV": {
                     "key": "guild.id",
                     "private": true,
-                    "value": "905294585473945660"
+                    "value": "925236203249360986"
                 }
             }
         },
         "AAW": {
             "doc_link": "https://discordapp.com/developers/docs/resources/user#get-current-user-guilds",
+            "get_headers": true,
+            "initialized": true,
             "method": "get",
             "name": "Get My Guilds",
             "publish_as": "data",
             "rank": 3,
-            "should_reinitialize": true,
+            "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAW",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAW\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_body\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.AAW.body\",\"caption\":\"body\",\"path\":[\"body\"]},\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"sample_value\":\"Fri, 31 Dec 2021 20:57:38 GMT\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"sample_value\":\"application/json\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.transfer-encoding\":{\"ret_value\":\"text\",\"caption\":\"headers transfer-encoding\",\"sample_value\":\"chunked\",\"path\":[\"headers\",\"transfer-encoding\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"sample_value\":\"keep-alive\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.set-cookie\":{\"ret_value\":\"list.text\",\"caption\":\"headers set-cookie\",\"sample_value\":\"__dcfduid=495655606a7c11ec9d9f42010a0a09c2; Expires=Wed, 30-Dec-2026 20:57:38 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/\",\"path\":[\"headers\",\"set-cookie\"]},\"_p_headers.strict-transport-security\":{\"ret_value\":\"text\",\"caption\":\"headers strict-transport-security\",\"sample_value\":\"max-age=31536000; includeSubDomains\",\"path\":[\"headers\",\"strict-transport-security\"]},\"_p_headers.x-ratelimit-bucket\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-bucket\",\"sample_value\":\"2a0617accf8bb8625c43e2ffeb5b8d5b\",\"path\":[\"headers\",\"x-ratelimit-bucket\"]},\"_p_headers.x-ratelimit-limit\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-limit\",\"sample_value\":\"1\",\"path\":[\"headers\",\"x-ratelimit-limit\"]},\"_p_headers.x-ratelimit-remaining\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-remaining\",\"sample_value\":\"0\",\"path\":[\"headers\",\"x-ratelimit-remaining\"]},\"_p_headers.x-ratelimit-reset\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-reset\",\"sample_value\":\"1640984260\",\"path\":[\"headers\",\"x-ratelimit-reset\"]},\"_p_headers.x-ratelimit-reset-after\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-reset-after\",\"sample_value\":\"1\",\"path\":[\"headers\",\"x-ratelimit-reset-after\"]},\"_p_headers.content-encoding\":{\"ret_value\":\"text\",\"caption\":\"headers content-encoding\",\"sample_value\":\"gzip\",\"path\":[\"headers\",\"content-encoding\"]},\"_p_headers.x-envoy-upstream-service-time\":{\"ret_value\":\"text\",\"caption\":\"headers x-envoy-upstream-service-time\",\"sample_value\":\"28\",\"path\":[\"headers\",\"x-envoy-upstream-service-time\"]},\"_p_headers.via\":{\"ret_value\":\"text\",\"caption\":\"headers via\",\"sample_value\":\"1.1 google\",\"path\":[\"headers\",\"via\"]},\"_p_headers.alt-svc\":{\"ret_value\":\"text\",\"caption\":\"headers alt-svc\",\"sample_value\":\"h3=\\\":443\\\"; ma=86400, h3-29=\\\":443\\\"; ma=86400, h3-28=\\\":443\\\"; ma=86400, h3-27=\\\":443\\\"; ma=86400\",\"path\":[\"headers\",\"alt-svc\"]},\"_p_headers.cf-cache-status\":{\"ret_value\":\"text\",\"caption\":\"headers cf-cache-status\",\"sample_value\":\"DYNAMIC\",\"path\":[\"headers\",\"cf-cache-status\"]},\"_p_headers.expect-ct\":{\"ret_value\":\"text\",\"caption\":\"headers expect-ct\",\"sample_value\":\"max-age=604800, report-uri=\\\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\\\"\",\"path\":[\"headers\",\"expect-ct\"]},\"_p_headers.report-to\":{\"ret_value\":\"text\",\"caption\":\"headers report-to\",\"sample_value\":\"{\\\"endpoints\\\":[{\\\"url\\\":\\\"https:\\\\/\\\\/a.nel.cloudflare.com\\\\/report\\\\/v3?s=x5yPbOOGZJGW5dy4WKsB7pLFMTs3%2B%2BbdqAOMAVV13MD5tXyigUJ6gMBunprafzhZ6mHDHRR30tuCVXjYE835ObW4MVFWc2z29cTWw8OYRieGKxfU5pXDdYA%2BPyhy6GSV\\\"}],\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"path\":[\"headers\",\"report-to\"]},\"_p_headers.nel\":{\"ret_value\":\"text\",\"caption\":\"headers nel\",\"sample_value\":\"{\\\"success_fraction\\\":0,\\\"report_to\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"path\":[\"headers\",\"nel\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"sample_value\":\"cloudflare\",\"path\":[\"headers\",\"server\"]},\"_p_headers.cf-ray\":{\"ret_value\":\"text\",\"caption\":\"headers cf-ray\",\"sample_value\":\"6c666bdcbf075fe6-SEA\",\"path\":[\"headers\",\"cf-ray\"]}}},\"plugin_api.AAW.body\":{\"caption\":\"Get My Guilds body\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"331039920107814943\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Advertise Your Server\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"5e84a10fbfad705e2f3e074031898004\",\"path\":[\"icon\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":false,\"path\":[\"owner\"]},\"_p_permissions\":{\"ret_value\":\"number\",\"caption\":\"permissions\",\"sample_value\":104189505,\"path\":[\"permissions\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"THREE_DAY_THREAD_ARCHIVE\",\"path\":[\"features\"]},\"_p_permissions_new\":{\"ret_value\":\"text\",\"caption\":\"permissions_new\",\"sample_value\":\"418863500865\",\"path\":[\"permissions_new\"]}}}}",
             "url": "https://discordapp.com/api/users/@me/guilds"
         },
         "AAX": {
             "body": "{\"content\":\"<message>\",\n\"tts\":<tts>,\n\"file\":\"<file>\"",
             "body_params": {
-                "AAa": {
-                    "doc": "",
+                "AAy": {
                     "key": "message",
                     "private": true,
                     "value": ""
                 },
-                "AAb": {
-                    "allow_blank": false,
+                "AAz": {
                     "key": "tts",
                     "private": true,
-                    "value": "",
-                    "visibility": "hidden"
+                    "value": ""
                 },
-                "AAc": {
-                    "allow_blank": false,
+                "ABA": {
                     "key": "file",
                     "private": true,
                     "value": ""
                 }
             },
+            "body_type": "json",
             "doc_link": "https://discordapp.com/developers/docs/resources/channel#create-message",
+            "get_headers": true,
             "headers": {
                 "AAZ": {
                     "key": "Content-Type",
@@ -139,9 +143,10 @@
                 "AAY": {
                     "key": "channel.id",
                     "private": true,
-                    "value": ""
+                    "value": "925236203249360986"
                 }
-            }
+            },
+            "wrap_error": false
         },
         "AAd": {
             "initialized": true,
@@ -162,19 +167,20 @@
             }
         },
         "AAf": {
+            "get_headers": true,
             "initialized": false,
             "method": "get",
             "name": "Get Guild Roles",
             "publish_as": "data",
             "rank": 6,
             "should_reinitialize": true,
-            "url": "https://discordapp.com/api/v6/guilds/[guild.id]/roles",
+            "url": "https://discordapp.com/api/v9/guilds/[guild.id]/roles",
             "url_params": {
-                "AAg": {
-                    "doc": "",
+                "ABC": {
                     "key": "guild.id",
                     "private": true,
-                    "value": "905294585473945660"
+                    "value": "925236203249360986",
+                    "visibility": "public"
                 }
             }
         }
