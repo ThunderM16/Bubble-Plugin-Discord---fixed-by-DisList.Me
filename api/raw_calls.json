@@ -146,6 +146,52 @@
                     "value": ""
                 }
             }
+        },
+        "ABW": {
+            "body": "{\"content\":\"<content>\",\n\"username\":\"<username>\",\n\"avatar\":\"<avatar>\",\n\"file\":\"<file>\"}",
+            "body_params": {
+                "ABZ": {
+                    "key": "content",
+                    "private": true,
+                    "value": ""
+                },
+                "ABa": {
+                    "key": "username",
+                    "private": true,
+                    "value": ""
+                },
+                "ABb": {
+                    "key": "avatar",
+                    "private": true,
+                    "value": ""
+                },
+                "ABc": {
+                    "key": "file",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Send Message to discord webhook",
+            "publish_as": "action",
+            "rank": 4,
+            "ret_value": "api.1640977923756x701742010930036700.plugin_api.ABW",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABW\":{\"caption\":\"Send Message to discord webhook\",\"fields\":{\"_p_content\":{\"ret_value\":\"text\",\"caption\":\"content\",\"sample_value\":\"<content>\",\"path\":[\"content\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"<username>\",\"path\":[\"username\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"<avatar>\",\"path\":[\"avatar\"]},\"_p_file\":{\"ret_value\":\"text\",\"caption\":\"file\",\"sample_value\":\"<file>\",\"path\":[\"file\"]}}}}",
+            "url": "https://discordapp.com/api/webhooks/[webhook.id]/[webhook.token]",
+            "url_params": {
+                "ABX": {
+                    "key": "webhook.id",
+                    "private": true,
+                    "value": ""
+                },
+                "ABY": {
+                    "key": "webhook.token",
+                    "private": true,
+                    "value": ""
+                }
+            }
         }
     },
     "generate_token_from_code_uri": "https://discordapp.com/api/oauth2/token",
