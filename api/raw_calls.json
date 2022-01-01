@@ -12,8 +12,8 @@
             "publish_as": "data",
             "rank": 0,
             "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAC",
-            "should_reinitialize": true,
-            "types": "{\"plugin_api.AAC\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"\",\"path\":[\"username\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"sample_value\":\"\",\"path\":[\"verified\"]},\"_p_locale\":{\"ret_value\":\"text\",\"caption\":\"locale\",\"sample_value\":\"\",\"path\":[\"locale\"]},\"_p_mfa_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"mfa_enabled\",\"sample_value\":\"\",\"path\":[\"mfa_enabled\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"\",\"path\":[\"id\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"sample_value\":\"\",\"path\":[\"flags\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"\",\"path\":[\"avatar\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"sample_value\":\"\",\"path\":[\"discriminator\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"\",\"path\":[\"email\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"\",\"path\":[\"banner\"]}}}}",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"\",\"path\":[\"id\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"\",\"path\":[\"username\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"sample_value\":\"\",\"path\":[\"discriminator\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"\",\"path\":[\"avatar\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"sample_value\":\"\",\"path\":[\"verified\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"\",\"path\":[\"email\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"sample_value\":\"\",\"path\":[\"flags\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"\",\"path\":[\"banner\"]},\"_p_accent_color\":{\"ret_value\":\"number\",\"caption\":\"accent_color\",\"sample_value\":\"\",\"path\":[\"accent_color\"]},\"_p_premium_type\":{\"ret_value\":\"text\",\"caption\":\"premium_type\",\"sample_value\":\"\",\"path\":[\"premium_type\"]},\"_p_public_flags\":{\"ret_value\":\"text\",\"caption\":\"public_flags\",\"sample_value\":\"\",\"path\":[\"public_flags\"]}}}}",
             "url": "https://discordapp.com/api/users/@me"
         },
         "AAW": {
@@ -217,21 +217,19 @@
                 }
             }
         },
-        "ABx": {
+        "ACA": {
+            "initialized": true,
             "method": "get",
-            "name": "Users Banners",
+            "name": "API Call",
             "publish_as": "data",
             "rank": 6,
+            "ret_value": "api.1640977923756x701742010930036700.plugin_api.ACA",
             "should_reinitialize": true,
-            "url": "https://cdn.discordapp.com/banners/[userid]/[user.banner]?size=4096",
+            "types": "{\"plugin_api.ACA\":{\"caption\":\"API Call\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"41771983429993937\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"LUL\",\"path\":[\"name\"]},\"_p_roles\":{\"ret_value\":\"list.text\",\"caption\":\"roles\",\"sample_value\":\"41771983429993000\",\"path\":[\"roles\"]},\"_p_user.username\":{\"ret_value\":\"text\",\"caption\":\"user username\",\"sample_value\":\"Luigi\",\"path\":[\"user\",\"username\"]},\"_p_user.discriminator\":{\"ret_value\":\"text\",\"caption\":\"user discriminator\",\"sample_value\":\"0002\",\"path\":[\"user\",\"discriminator\"]},\"_p_user.id\":{\"ret_value\":\"text\",\"caption\":\"user id\",\"sample_value\":\"96008815106887111\",\"path\":[\"user\",\"id\"]},\"_p_user.avatar\":{\"ret_value\":\"text\",\"caption\":\"user avatar\",\"sample_value\":\"5500909a3274e1812beb4e8de6631111\",\"path\":[\"user\",\"avatar\"]},\"_p_user.public_flags\":{\"ret_value\":\"number\",\"caption\":\"user public_flags\",\"sample_value\":131328,\"path\":[\"user\",\"public_flags\"]},\"_p_require_colons\":{\"ret_value\":\"boolean\",\"caption\":\"require_colons\",\"sample_value\":true,\"path\":[\"require_colons\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":false,\"path\":[\"managed\"]},\"_p_animated\":{\"ret_value\":\"boolean\",\"caption\":\"animated\",\"sample_value\":false,\"path\":[\"animated\"]}}}}",
+            "url": "https://discordapp.com/api/guilds/[guild.id]/emojis",
             "url_params": {
-                "ABy": {
-                    "key": "userid",
-                    "private": true,
-                    "value": ""
-                },
-                "ABz": {
-                    "key": "user.banner",
+                "ACB": {
+                    "key": "guild.id",
                     "private": true,
                     "value": ""
                 }
