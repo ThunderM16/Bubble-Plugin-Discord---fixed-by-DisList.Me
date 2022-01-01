@@ -4,7 +4,7 @@
     "authentication_url": "https://discordapp.com/api/oauth2/authorize",
     "calls": {
         "AAC": {
-            "doc_link": "https://discordapp.com/developers/docs/resources/us",
+            "doc_link": "https://discordapp.com/developers/docs/resources/user",
             "get_headers": false,
             "initialized": true,
             "method": "get",
@@ -13,7 +13,7 @@
             "rank": 0,
             "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAC",
             "should_reinitialize": false,
-            "types": "{\"plugin_api.AAC\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"\",\"path\":[\"id\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"\",\"path\":[\"username\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"sample_value\":\"\",\"path\":[\"discriminator\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"\",\"path\":[\"avatar\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"sample_value\":\"\",\"path\":[\"verified\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"\",\"path\":[\"email\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"sample_value\":\"\",\"path\":[\"flags\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"\",\"path\":[\"banner\"]},\"_p_accent_color\":{\"ret_value\":\"number\",\"caption\":\"accent_color\",\"sample_value\":\"\",\"path\":[\"accent_color\"]},\"_p_premium_type\":{\"ret_value\":\"text\",\"caption\":\"premium_type\",\"sample_value\":\"\",\"path\":[\"premium_type\"]},\"_p_public_flags\":{\"ret_value\":\"text\",\"caption\":\"public_flags\",\"sample_value\":\"\",\"path\":[\"public_flags\"]}}}}",
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"80351110224678912\",\"path\":[\"id\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"Nelly\",\"path\":[\"username\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"sample_value\":\"1337\",\"path\":[\"discriminator\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"8342729096ea3675442027381ff50dfe\",\"path\":[\"avatar\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"sample_value\":true,\"path\":[\"verified\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"nelly@discord.com\",\"path\":[\"email\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"sample_value\":64,\"path\":[\"flags\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"06c16474723fe537c283b8efa61a30c8\",\"path\":[\"banner\"]},\"_p_accent_color\":{\"ret_value\":\"number\",\"caption\":\"accent_color\",\"sample_value\":16711680,\"path\":[\"accent_color\"]},\"_p_premium_type\":{\"ret_value\":\"text\",\"caption\":\"premium_type\",\"sample_value\":1,\"path\":[\"premium_type\"]},\"_p_public_flags\":{\"ret_value\":\"text\",\"caption\":\"public_flags\",\"sample_value\":64,\"path\":[\"public_flags\"]}}}}",
             "url": "https://discordapp.com/api/users/@me"
         },
         "AAW": {
