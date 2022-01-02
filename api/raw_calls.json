@@ -1,4 +1,5 @@
 {
+    "add_basic_authentication": false,
     "add_to_header": true,
     "auth": "oauth2_user",
     "authentication_url": "https://discordapp.com/api/oauth2/authorize",
@@ -26,24 +27,19 @@
         "AAW": {
             "doc_link": "https://discordapp.com/developers/docs/resources/user#get-current-user-guilds",
             "get_headers": false,
-            "headers": {
-                "ACJ": {
-                    "key": "Content-Type",
-                    "private": true,
-                    "value": "application/json"
-                }
-            },
             "initialized": true,
+            "is_list": true,
             "method": "get",
             "name": "Get My Guilds",
             "publish_as": "data",
             "rank": 1,
             "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAW",
-            "should_reinitialize": true,
-            "types": "{\"plugin_api.AAW\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"image\",\"caption\":\"icon\",\"sample_value\":\"\",\"path\":[\"icon\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":\"\",\"path\":[\"owner\"]},\"_p_owner_id\":{\"ret_value\":\"text\",\"caption\":\"owner_id\",\"sample_value\":\"\",\"path\":[\"owner_id\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"\",\"path\":[\"permissions\"]},\"_p_features\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.AAW.features\",\"caption\":\"features\",\"path\":[\"features\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"\",\"path\":[\"banner\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"\",\"path\":[\"description\"]},\"_p_splash\":{\"ret_value\":\"text\",\"caption\":\"splash\",\"sample_value\":\"\",\"path\":[\"splash\"]},\"_p_discovery_splash\":{\"ret_value\":\"text\",\"caption\":\"discovery_splash\",\"sample_value\":\"\",\"path\":[\"discovery_splash\"]},\"_p_emojis\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.AAW.emojis\",\"caption\":\"emojis\",\"path\":[\"emojis\"]},\"_p_region\":{\"ret_value\":\"text\",\"caption\":\"region\",\"sample_value\":\"\",\"path\":[\"region\"]},\"_p_roles\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.AAW.roles\",\"caption\":\"roles\",\"path\":[\"roles\"]}}},\"plugin_api.AAW.features\":{\"caption\":\"Get My Guilds feature\",\"fields\":{}},\"plugin_api.AAW.emojis\":{\"caption\":\"Get My Guilds emoji\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"\",\"path\":[\"name\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"\",\"path\":[\"id\"]},\"_p_require_colons\":{\"ret_value\":\"boolean\",\"caption\":\"require_colons\",\"sample_value\":\"\",\"path\":[\"require_colons\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":\"\",\"path\":[\"managed\"]},\"_p_animated\":{\"ret_value\":\"boolean\",\"caption\":\"animated\",\"sample_value\":\"\",\"path\":[\"animated\"]},\"_p_available\":{\"ret_value\":\"boolean\",\"caption\":\"available\",\"sample_value\":\"\",\"path\":[\"available\"]}}},\"plugin_api.AAW.roles\":{\"caption\":\"Get My Guilds role\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"\",\"path\":[\"name\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"\",\"path\":[\"permissions\"]},\"_p_position\":{\"ret_value\":\"number\",\"caption\":\"position\",\"sample_value\":\"\",\"path\":[\"position\"]},\"_p_color\":{\"ret_value\":\"number\",\"caption\":\"color\",\"sample_value\":\"\",\"path\":[\"color\"]},\"_p_hoist\":{\"ret_value\":\"boolean\",\"caption\":\"hoist\",\"sample_value\":\"\",\"path\":[\"hoist\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":\"\",\"path\":[\"managed\"]},\"_p_mentionable\":{\"ret_value\":\"boolean\",\"caption\":\"mentionable\",\"sample_value\":\"\",\"path\":[\"mentionable\"]}}}}",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAW\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"331039920107814943\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Advertise Your Server\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"image\",\"caption\":\"icon\",\"sample_value\":\"5e84a10fbfad705e2f3e074031898004\",\"path\":[\"icon\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":false,\"path\":[\"owner\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"418863500865\",\"path\":[\"permissions\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"DISCOVERABLE_DISABLED\",\"path\":[\"features\"]}}}}",
             "url": "https://discordapp.com/api/[v]/users/@me/guilds",
             "url_params": {
                 "ACC": {
+                    "allow_blank": true,
                     "key": "v",
                     "private": true,
                     "value": "v9"
@@ -219,7 +215,7 @@
             "initialized": true,
             "method": "get",
             "name": "Add Guild Member",
-            "publish_as": "data",
+            "publish_as": "action",
             "rank": 5,
             "ret_value": "api.1640977923756x701742010930036700.plugin_api.ABu",
             "should_reinitialize": true,
@@ -257,24 +253,30 @@
             }
         },
         "ACE": {
+            "data_type": "JSON",
+            "headers": {
+                "ACj": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "public"
+                }
+            },
             "initialized": true,
             "method": "get",
             "name": "Guild More Info not working right",
+            "params": {
+            },
             "publish_as": "data",
             "rank": 7,
             "ret_value": "api.1640977923756x701742010930036700.plugin_api.ACE",
             "should_reinitialize": true,
-            "types": "{\"plugin_api.ACE\":{\"caption\":\"Guild More Info not working right\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"\",\"path\":[\"name\"]},\"_p_region?\":{\"ret_value\":\"text\",\"caption\":\"region?\",\"sample_value\":\"\",\"path\":[\"region?\"]},\"_p_icon?\":{\"ret_value\":\"image\",\"caption\":\"icon?\",\"sample_value\":\"\",\"path\":[\"icon?\"]},\"_p_verification_level?\":{\"ret_value\":\"number\",\"caption\":\"verification_level?\",\"sample_value\":\"\",\"path\":[\"verification_level?\"]}}}}",
-            "url": "https://discordapp.com/api/[v]/guilds/[guilds.id]/",
+            "types": "{\"plugin_api.ACE\":{\"caption\":\"Guild More Info not working right\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585473945660\",\"path\":[\"id\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"\",\"path\":[\"banner\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":\"Yes\",\"path\":[\"owner\"]},\"_p_owner_id\":{\"ret_value\":\"text\",\"caption\":\"owner_id\",\"sample_value\":\"676195747904880690\",\"path\":[\"owner_id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"name\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"\",\"path\":[\"features\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"\",\"path\":[\"icon\"]}}}}",
+            "url": "https://discord.com/api/guilds/[guildID]",
             "url_params": {
-                "ACG": {
-                    "allow_blank": true,
-                    "key": "v",
-                    "private": true,
-                    "value": "V9"
-                },
-                "ACN": {
-                    "key": "guilds.id",
+                "ACh": {
+                    "doc": "",
+                    "key": "guildID",
                     "private": true,
                     "value": ""
                 }
@@ -283,6 +285,6 @@
     },
     "generate_token_from_code_uri": "https://discordapp.com/api/oauth2/token",
     "human": "Discord-Api - by DisList.Me",
-    "oauth_user_data_call": "https://discordapp.com/api/users/@me",
-    "scope": "email identify guilds guilds.join"
+    "oauth_user_data_call": "https://discordapp.com/api/v9/users/@me",
+    "scope": "email identify guilds guilds.join messages.read"
 }
