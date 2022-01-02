@@ -17,18 +17,18 @@
             "url": "https://discordapp.com/api/users/@me"
         },
         "AAW": {
-            "data_type": "empty",
+            "data_type": "JSON",
             "doc_link": "https://discordapp.com/developers/docs/resources/user#get-current-user-guilds",
             "get_headers": false,
             "initialized": true,
+            "is_list": true,
             "method": "get",
             "name": "Get My Guilds",
-            "no_types": true,
             "publish_as": "data",
             "rank": 1,
             "ret_value": "api.1640977923756x701742010930036700.plugin_api.AAW",
             "should_reinitialize": true,
-            "types": "{\"plugin_api.AAW\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"331039920107814943\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Advertise Your Server\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"5e84a10fbfad705e2f3e074031898004\",\"path\":[\"icon\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":\"\",\"path\":[\"owner\"]},\"_p_banners\":{\"ret_value\":\"text\",\"caption\":\"banners\",\"sample_value\":\"\",\"path\":[\"banners\"]},\"_p_permissions\":{\"ret_value\":\"number\",\"caption\":\"permissions\",\"sample_value\":104189505,\"path\":[\"permissions\"]},\"_p_features\":{\"ret_value\":\"text\",\"caption\":\"features\",\"sample_value\":\"SEVEN_DAY_THREAD_ARCHIVE\",\"path\":[\"features\"]},\"_p_permissions_new\":{\"ret_value\":\"text\",\"caption\":\"permissions_new\",\"sample_value\":\"418863500865\",\"path\":[\"permissions_new\"]}}}}",
+            "types": "{\"plugin_api.AAW\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"331039920107814943\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Advertise Your Server\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"5e84a10fbfad705e2f3e074031898004\",\"path\":[\"icon\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":false,\"path\":[\"owner\"]},\"_p_permissions\":{\"ret_value\":\"number\",\"caption\":\"permissions\",\"sample_value\":104189505,\"path\":[\"permissions\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"NEW_THREAD_PERMISSIONS\",\"path\":[\"features\"]},\"_p_permissions_new\":{\"ret_value\":\"text\",\"caption\":\"permissions_new\",\"sample_value\":\"418863500865\",\"path\":[\"permissions_new\"]}}}}",
             "url": "https://discordapp.com/api/users/@me/guilds"
         },
         "AAd": {
