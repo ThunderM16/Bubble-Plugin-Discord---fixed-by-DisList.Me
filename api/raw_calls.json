@@ -255,30 +255,23 @@
         "ACE": {
             "data_type": "JSON",
             "headers": {
-                "ACj": {
-                    "key": "Content-Type",
-                    "private": true,
-                    "value": "application/json",
-                    "visibility": "public"
-                }
             },
             "initialized": true,
             "method": "get",
-            "name": "Guild More Info not working right",
+            "name": "Guild More Info ",
             "params": {
             },
             "publish_as": "data",
             "rank": 7,
             "ret_value": "api.1640977923756x701742010930036700.plugin_api.ACE",
             "should_reinitialize": true,
-            "types": "{\"plugin_api.ACE\":{\"caption\":\"Guild More Info not working right\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585473945660\",\"path\":[\"id\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"\",\"path\":[\"banner\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":\"Yes\",\"path\":[\"owner\"]},\"_p_owner_id\":{\"ret_value\":\"text\",\"caption\":\"owner_id\",\"sample_value\":\"676195747904880690\",\"path\":[\"owner_id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"name\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"\",\"path\":[\"features\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"\",\"path\":[\"icon\"]}}}}",
-            "url": "https://discord.com/api/guilds/[guildID]",
+            "types": "{\"plugin_api.ACE\":{\"caption\":\"Guild More Info \",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"\",\"path\":[\"icon\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":\"\",\"path\":[\"owner\"]},\"_p_owner_id\":{\"ret_value\":\"text\",\"caption\":\"owner_id\",\"sample_value\":\"\",\"path\":[\"owner_id\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"\",\"path\":[\"permissions\"]},\"_p_features\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.ACE.features\",\"caption\":\"features\",\"path\":[\"features\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"\",\"path\":[\"banner\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"\",\"path\":[\"description\"]},\"_p_splash\":{\"ret_value\":\"text\",\"caption\":\"splash\",\"sample_value\":\"\",\"path\":[\"splash\"]},\"_p_discovery_splash\":{\"ret_value\":\"text\",\"caption\":\"discovery_splash\",\"sample_value\":\"\",\"path\":[\"discovery_splash\"]},\"_p_emojis\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.ACE.emojis\",\"caption\":\"emojis\",\"path\":[\"emojis\"]},\"_p_region\":{\"ret_value\":\"text\",\"caption\":\"region\",\"sample_value\":\"\",\"path\":[\"region\"]},\"_p_roles\":{\"ret_value\":\"list.api.1640977923756x701742010930036700.plugin_api.ACE.roles\",\"caption\":\"roles\",\"path\":[\"roles\"]}}},\"plugin_api.ACE.features\":{\"caption\":\"Guild More Info  feature\",\"fields\":{}},\"plugin_api.ACE.emojis\":{\"caption\":\"Guild More Info  emoji\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"\",\"path\":[\"name\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"\",\"path\":[\"id\"]},\"_p_require_colons\":{\"ret_value\":\"boolean\",\"caption\":\"require_colons\",\"sample_value\":\"\",\"path\":[\"require_colons\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":\"\",\"path\":[\"managed\"]},\"_p_animated\":{\"ret_value\":\"boolean\",\"caption\":\"animated\",\"sample_value\":\"\",\"path\":[\"animated\"]},\"_p_available\":{\"ret_value\":\"boolean\",\"caption\":\"available\",\"sample_value\":\"\",\"path\":[\"available\"]}}},\"plugin_api.ACE.roles\":{\"caption\":\"Guild More Info  role\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"\",\"path\":[\"name\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"\",\"path\":[\"permissions\"]},\"_p_position\":{\"ret_value\":\"text\",\"caption\":\"position\",\"sample_value\":\"\",\"path\":[\"position\"]},\"_p_color\":{\"ret_value\":\"text\",\"caption\":\"color\",\"sample_value\":\"\",\"path\":[\"color\"]},\"_p_hoist\":{\"ret_value\":\"_ignore\"},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":\"\",\"path\":[\"managed\"]},\"_p_mentionable\":{\"ret_value\":\"boolean\",\"caption\":\"mentionable\",\"sample_value\":\"\",\"path\":[\"mentionable\"]}}}}",
+            "url": "https://discordapp.com/api/[v]/users/@me/guilds",
             "url_params": {
-                "ACh": {
-                    "doc": "",
-                    "key": "guildID",
+                "ACm": {
+                    "key": "v",
                     "private": true,
-                    "value": ""
+                    "value": "v9"
                 }
             }
         }
