@@ -1,7 +1,6 @@
 {
     "categories": {
-        "0": "social network",
-        "1": "data (things)"
+        "0": "social network"
     },
     "description": "Integrate your web app with Discord services\n\nSupplies Discord login service plus the ability to send chat messages to text channels using the discord webhook feature want to help me build a better plugin with emojis and more please join me at http://join.dislist.me *(vanity discord invite)",
     "image": "//s3.amazonaws.com/appforest_uf/f1640980669022x382682220005809340/dynoav3331.png",
