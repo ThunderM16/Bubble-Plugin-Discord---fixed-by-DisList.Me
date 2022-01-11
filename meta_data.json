@@ -6,6 +6,6 @@
     "image": "//s3.amazonaws.com/appforest_uf/f1640980669022x382682220005809340/dynoav3331.png",
     "license": "open_source",
     "link": "https://discordapp.com",
-    "name": "Discord - Fixed Some Major Issues",
+    "name": "Discord - OAuth",
     "plugin_instructions": "go to https://discordapp.com/developers/applications/me and create your App and credentials. Add them to the plugin settings and then use the login/signup action in a workflow to log in via discord. Can also use the \"Get Users\" API call to save user info to Bubble. want to help me build a better plugin with emojis and more please join me at http://join.dislist.me *(vanity discord invite)"
 }
